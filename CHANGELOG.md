@@ -4,6 +4,9 @@ All notable changes to `laravel-livewire-tables` will be documented in this file
 
 ## [Unreleased]
 
+## [1.25.2] - 2025-09-06
+- Fixed DateTime::getLastErrors() returning false on PHP 8.2+
+
 ## [1.25.1] - 2022-03-29
 
 ### Changed
