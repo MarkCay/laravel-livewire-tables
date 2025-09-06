@@ -192,6 +192,7 @@ trait WithFilters
                 if ($lastErrors === false) {
                     $lastErrors = [];
                 }
+
                 return $dt !== false && ! array_sum($lastErrors);
             }
 
@@ -204,6 +205,7 @@ trait WithFilters
                 if ($lastErrors === false) {
                     $lastErrors = [];
                 }
+
                 return $dt !== false && ! array_sum($lastErrors);
             }
 
